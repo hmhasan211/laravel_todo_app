@@ -1,0 +1,65 @@
+p,h1,h2,h3,h5,h4,h6{
+    padding: 0;
+    margin: 0;
+}
+.accordion-button{
+    color: red;
+    max-width: 10%;
+}
+.todo_checkbox,
+.task_checkbox
+{
+    margin: 10px;
+}
+
+.action_btn i {
+    padding-left: 8px;
+}
+
+.action_btn{
+  opacity: 0;
+}
+.main_btn:hover .action_btn{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.text_dark{
+    color: gray;
+}
+
+.task {
+    margin-left: 40px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f8fafc;
+}
+
+
+.todo-list {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+.todo-list>li {
+    border-radius: 2px;
+    background: #f8f9fa;
+    border-left: 2px solid #e9ecef;
+    color: #495057;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+#reload{
+    content: '';
+}
